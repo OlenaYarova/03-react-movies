@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { Movie } from "../type/movie";
+import type { Movie } from "../types/movie";
 const API_KEY = import.meta.env.VITE_MOVIE_KEY;
 
 export interface MoviesApiResponse {

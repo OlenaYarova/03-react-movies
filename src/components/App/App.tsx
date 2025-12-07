@@ -2,7 +2,7 @@ import { useState } from "react";
 import SearchBar from "../SearchBar.tsx/SearchBar";
 import "./App.module.css";
 import toast, { Toaster } from "react-hot-toast";
-import type { Movie } from "../../type/movie";
+import type { Movie } from "../../types/movie";
 import { fetchMovies } from "../../services/movieService";
 import Loader from "../Loader/Loader";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
